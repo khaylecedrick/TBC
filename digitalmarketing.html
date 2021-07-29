@@ -3,13 +3,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIGITAL MARKETING</title>
+    <title>WEBSITE</title>
+    <link href="/build/tailwind.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="/build/tailwind.css" rel="stylesheet">
 </head>
-<body class="w-screen h-screen bg-white">
+
+<body class="font-sans">
     <div>
         <nav class="sticky top-0 flex flex-row items-center justify-between w-screen h-20 p-6 bg-white border border-b border-gray-300">
             <div class="flex justify-start">
@@ -17,7 +19,7 @@
             </div>
             <div class="flex justify-center">
                 <div class="hidden mt-3 space-x-6 md:flex -pr-20 xl:pr-32">
-                    <a href="website.html" class="text-xs font-medium text-gray-800 uppercase lg:text-base hover:text-gray-900">
+                    <a href="index.html" class="text-xs font-medium text-gray-800 uppercase lg:text-base hover:text-gray-900">
                         website
                     </a>
                     <a href="game.html" class="text-xs font-medium text-gray-800 uppercase lg:text-base hover:text-gray-900">
@@ -52,67 +54,56 @@
         </nav>
         <div id="navigation" class="hidden w-full h-64 bg-blue-400">
             <div class="flex flex-col items-center justify-center py-10 space-y-2">
-                <a href="index.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="index.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     website
                 </a>
-                <a href="game.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="game.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     game
                 </a>
-                <a href="digitalmarketing.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="digitalmarketing.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     digital marketing
                 </a>
-                <a href="events.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="events.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     events
                 </a>
-                <a href="ourcompany.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="ourcompany.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     our company
                 </a>
-                <a href="contactus.html" class="text-white uppercase text-md hover:text-green-700">
+                <a href="contactus.html" class="text-white uppercase text-md hover:text-blue-900 focus:outline-none">
                     contact us
                 </a>
             </div>
         </div>
-        <section class="flex flex-col items-center justify-center w-screen bg-cover h-5/6 md:h-2/5 xl:h-screen md:flex-row" style="background-image: url('src/bg1.png')";>
-            <div class="flex flex-col items-center justify-center w-screen px-6 pt-5 space-y-4 text-center md:py-0 md:text-left md:px-0 md:p-6 md:items-start h-1/3 md:pl-16 2xl:pl-16 md:w-1/2 md:space-y-6 lg:space-y-8 md:h-full">
-                
-                    <h2 class="text-2xl font-semibold text-white uppercase lg:text-6xl md:text-4xl">we bring traffic to your website</h2>
-                        <p class="text-sm font-medium tracking-wider text-white lg:text-2xl md:text-lg">We create Content Strategy and Copy Writing, Search Engine Optimization, Email and SMS Marketing. Digital Advertising</p>
-                
-                    <a class="flex items-center justify-center px-5 py-1 text-blue-600 bg-white rounded-lg 2xl:w-1/6 xl:3/6 lg:2/4 md:text-lg lg:text-2xl hover:bg-gray-100" href="#">Pricing</a>
-                
+
+        <div class="flex flex-col w-screen h-auto bg-bottom lg:bg-center" style="background-image: url('src/bg1.png');">
+            <section class="flex flex-col items-center justify-center md:flex-row">
+                <div class="px-4 py-6 text-left md:px-3 xl:py-8 md:w-1/2">
+                    <h2 class="text-xl font-extrabold text-center text-white uppercase lg:font-semibold md:mt-3 lg:text-4xl xl:text-5xl md:pl-8 lg:pl-8 xl:pl-14 md:text-left">we bring traffic<br>to your website</h2>
+                    <p class="mt-2 tracking-wider text-center text-white md:mt-5 xl:text-xl md:pl-8 lg:pl-8 xl:pl-14 focus-within: md:text-lg md:font-medium md:text-left">We Create Content Strategy, Copy Writing & Search Engine Optimization, Email and SMS Marketing, and Digital Advertising.</p>
+                </div>
+                <div class="flex items-end justify-center md:w-1/2">
+                    <img src="src/laptop1.png" class="w-auto h-64 md:h-96" alt="laptop">
+                </div>
+            </section>
+        </div>
+
+        <section class="flex flex-col items-center justify-center px-10 py-6 space-y-6 bg-center md:flex-row md:px-32 md:space-y-0 md:space-x-2" style="background-image: url(src/untitled3.png);">
+            <div class="w-64 bg-blue-500 shadow-md h-80 rounded-xl">
+                <div class="flex flex-col items-center justify-center w-full h-full space-y-6">
+                    <h1 class="text-6xl font-bold text-white">&dollar;35<span class="text-2xl text-white">/mo</span></h1>
+                    <p class="text-xs text-center text-white">Subscription features will be put here</p>
+                    <a href="" class="p-3 mt-2 text-xl text-blue-600 bg-white rounded-xl hover:bg-gray-100">Subscribe</a>
+                </div>
             </div>
-            <div class="flex items-end justify-end w-full md:w-1/2 h-2/3 md:h-full">
-                <img class="w-full h-full bg-cover lg:h-full xl:h-screen" src="src/Laptop1.png" alt="">
+            <div class="w-64 bg-blue-300 shadow-md h-80 md:h-64 rounded-xl">
+                <div class="flex flex-col items-center justify-center w-full h-full space-y-6">
+                    <h1 class="text-6xl font-bold text-white">&dollar;35<span class="text-2xl text-white">/mo</span></h1>
+                    <p class="text-xs text-center text-white">Subscription features will be put here</p>
+                    <a href="" class="p-3 mt-2 text-xl text-blue-600 bg-white rounded-xl hover:bg-gray-100">Subscribe</a>
+                </div>
             </div>
         </section>
-    
-    <section class="flex flex-col w-full h-full py-8 bg-fixed bg-cover md:h-2/3" style="background-image: url(src/untitled3.png);">
-        <div class="flex flex-col items-center justify-center w-full h-full space-y-6 md:flex-row md:space-x-8">
-            <div class="p-5 font-medium text-center text-white bg-blue-500 border-transparent rounded-lg shadow-lg lg:w-80 md:w-72 md:h-96 w-80 h-96">
-                <div class="space-y-3 text-lg">
-                    <div id="annual" class="text-6xl font-bold annual">&dollar;35  <span class="text-2xl text-white">/mo</span></div>
-                    <div class="flex items-center justify-center w-full px-6 text-2xl text-center h-1/2">Subscription Features Will be put here</div>
-                    <a href="#" target="_blank" class="flex justify-center">
-                    <div class="p-3 mt-2 text-xl text-blue-600 bg-white rounded-xl hover:bg-gray-100">Subscribe</div>
-                        </a>
-                     </div>
-                </div>
-                  
-                <div class="p-5 font-medium text-center bg-blue-300 shadow-lg rounded-xl md:w-54 md:h-80 w-80 h-96">
-                    <div class="space-y-3 text-white text-md ">
-                        <div id="annual" class="text-4xl font-bold text-white annual">&dollar;100 <span class="text-xl text-white">/ a yr</span></div>
-                        <div class="flex items-center justify-center w-full px-8 text-2xl text-center h-1/2">Subscription Features Will be put here</div>
-                        <a href="#" target="_blank" class="flex justify-center">
-                        <div class="p-3 mt-2 text-lg text-white bg-blue-500 rounded-xl hover:bg-blue-400">Subscribe</div>
-                        </a>
-                    </div>    
-                </div>
-                  
-            </div>
-        
-        
-    </section>
-</div>
+
         <footer class="flex flex-col w-screen p-6 bg-fixed bg-cover h-96" style="background-image: url(src/footerbg.png);">
             <div class="flex items-start justify-start">
                 <img src="src/logo.png" class="h-12" alt="">
@@ -123,10 +114,10 @@
                         <h1 class="text-base text-blue-500 uppercase md:text-lg lg:text-2xl">The Company</h1>
                         <ul class="flex flex-col">
                             <li>
-                                <a href="#" class="text-base text-blue-500 lg:text-lg">Our Company</a>
+                                <a href="ourcompany.html" class="text-base text-blue-500 lg:text-lg">Our Company</a>
                             </li>
                             <li>
-                                <a href="#" class="text-base text-blue-500 lg:text-lg">Contact Us</a>
+                                <a href="contactus.html" class="text-base text-blue-500 lg:text-lg">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -134,46 +125,89 @@
                 <div>
                     <div class="flex flex-col space-y-4">
                         <h1 class="text-base text-blue-500 uppercase md:text-lg lg:text-2xl">Services</h1>
-                        <ul class="flex flex-col text-base text-blue-500 lg:text-lg">
+                        <ul class="flex flex-col">
                             <li>
-                                <a href="#" class="hover:text-blue-400">Websites</a>
+                                <a href="index.html" class="text-base text-blue-500 lg:text-lg">Websites</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-blue-400">Games</a>
+                                <a href="game.html" class="text-base text-blue-500 lg:text-lg">Games</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-blue-400">Digital Marketing</a>
+                                <a href="digitalmarketing.html" class="text-base text-blue-500 lg:text-lg">Digital Marketing</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:text-blue-400">Events</a>
+                                <a href="events.html" class="text-base text-blue-500 lg:text-lg">Events</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="absolute hidden border border-blue-500 border-2-2 h-36 lg:h-44 md:block" style="left: 50%"></div>
+                <div class="absolute hidden border border-blue-500 border-2-2 h-36 lg:h-44 md:block left-1/2"></div>
                 <div class="col-span-2">
-                    <div class="flex flex-row items-center justify-center w-full h-full mt-5 space-x-4 text-lg text-blue-500 md:text-2xl md:mt-0">
-                        <a href="#"><i class=" fas fa-phone-alt"></i></a>
-                        <a href="#"><i class=" fas fa-map-marker-alt"></i></a>
-                        <a href="#"><i class=" far fa-envelope"></i></a>
-                        <a href="#"><i class=" fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class=" fab fa-facebook"></i></a>
-                    <a href="#"><i class=" fab fa-instagram"></i></a>
+                    <div class="flex flex-row items-center justify-center w-full h-full mt-5 space-x-4 md:mt-0">
+                        <a href="#"><i class="text-lg text-blue-500 fas fa-phone-alt md:text-2xl"></i></a>
+                        <a href="#"><i class="text-lg text-blue-500 fas fa-map-marker-alt md:text-2xl"></i></a>
+                        <a href="#"><i class="text-lg text-blue-500 far fa-envelope md:text-2xl"></i></a>
+                        <a href="#"><i class="text-lg text-blue-500 fab fa-linkedin-in md:text-2xl"></i></a>
+                        <a href="#"><i class="text-lg text-blue-500 fab fa-facebook md:text-2xl"></i></a>
+                        <a href="#"><i class="text-lg text-blue-500 fab fa-instagram md:text-2xl"></i></a>
                     </div>
                 </div>
             </div>
             <div class="flex flex-wrap items-end justify-end">
-                <img src="src/©thinkbigcreatives2021.png" alt="">
+                <img src="src/tbc2021.png" alt="think big creatives">
             </div>
         </footer>
-
-  
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.lazy').slick({
+            lazyLoad: 'ondemand',
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 5000,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 5000,
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        autoplay: true,
+                        autoplaySpeed: 5000,
+                    }
+                }
+            ]
+        });
+    </script>
     <script>
         function toggleElement(elemID) {
                 document.getElementById(elemID).classList.toggle('hidden');
                 document.getElementById(elemID).classList.toggle('block');
             }
     </script>
-    
 </body>
 </html>
